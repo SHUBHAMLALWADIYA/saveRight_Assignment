@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         resendOtpButton.addEventListener('click', function() {
             const countryCode = localStorage.getItem('countryCode');
             const phone = localStorage.getItem('phone');
+            otpInputs.forEach(input => input.value = ''); // Clear OTP fields
             if (phone) {
                 generateAndShowOTP(countryCode, phone);
             }
