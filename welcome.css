@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.welcome-message {
+    max-width: 400px;
+}
+
+.welcome-message h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.welcome-message p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.profile-icon {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #fff;
+    color: #6a11cb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #e0e0e0;
+}

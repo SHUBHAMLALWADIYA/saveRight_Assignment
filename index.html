@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <i class="fas fa-phone-alt login-icon"></i>
+            <h2>Login</h2>
+            <form id="phoneForm">
+                <div class="input-group">
+                    <label for="phone">Enter your phone number</label>
+                    <div class="input-container">
+                        <select id="countryCode">
+                            <option value="+91">+91</option>
+                            <option value="+1">+1</option>
+                            <option value="+44">+44</option>
+                            <!-- Add more country codes as needed -->
+                        </select>
+                        <input type="tel" id="phone" placeholder="Phone number" required>
+                    </div>
+                </div>
+                <button type="submit">Submit</button>
+                <p id="phoneError" class="error"></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
