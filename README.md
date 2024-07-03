@@ -29,17 +29,19 @@ The application is fully responsive and adapts to various screen sizes, ensuring
 - Temporary storage of phone number and OTP in local storage.
 - Data persistence during the session.
 
+
 ## File Structure
 
 ```plaintext
 .
+├── css
+│   ├── otp.css         # Styles specific to OTP page
+│   ├── styles.css      # General styles for the project
+│   ├── welcome.css     # Styles specific to Welcome page
+├── pages
+│   ├── otp.html        # OTP verification page
+│   ├── welcome.html    # Welcome page after successful OTP verification
 ├── index.html          # Main login page
-├── otp.html            # OTP verification page
-├── welcome.html        # Welcome page after successful OTP verification
-├── styles.css          # General styles for the project
-├── otp.css             # Styles specific to OTP page
-├── welcome.css         # Styles specific to Welcome page
 ├── script.js           # JavaScript logic for the application
 └── README.md           # This README file
-
 
