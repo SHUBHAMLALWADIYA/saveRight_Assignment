@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 generateAndShowOTP(countryCode, phone);
                 localStorage.setItem('countryCode', countryCode); // Store country code
                 localStorage.setItem('phone', phone); // Store phone number
-                window.location.href = 'otp.html'; // Redirect to OTP page
+                window.location.href = 'pages/otp.html'; // Redirect to OTP page
             } else {
                 phoneError.textContent = 'Please enter a valid phone number.';
             }
