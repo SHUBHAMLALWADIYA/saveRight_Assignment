@@ -29,6 +29,19 @@ The application is fully responsive and adapts to various screen sizes, ensuring
 - Temporary storage of phone number and OTP in local storage.
 - Data persistence during the session.
 
+## Photos of UI
+
+### MainPage
+- ![mainUI](./images/main.png)
+
+### Otp PopUp
+- ![popUpUI](./images/otp.png)
+
+### Otp PopUp
+- ![OtpUI](./images/mainOtp.png)
+
+### Welcome Page
+- ![welcomeUI](./images/welcome.png)
 
 ## File Structure
 
