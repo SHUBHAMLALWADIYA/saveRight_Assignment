@@ -2,6 +2,8 @@
 
 This project implements a responsive OTP-based phone number authentication system. Users can log in by entering their phone number, receive an OTP, and verify it to access the welcome page. Additionally, there is a feature to resend the OTP.
 
+
+
 ## Features
 
 ### Responsive Design
@@ -43,18 +45,42 @@ The application is fully responsive and adapts to various screen sizes, ensuring
 ### Welcome Page
 - ![welcomeUI](./images/welcome.png)
 
-## File Structure
 
-```plaintext
-.
-├── css
-│   ├── otp.css         # Styles specific to OTP page
-│   ├── styles.css      # General styles for the project
-│   ├── welcome.css     # Styles specific to Welcome page
-├── pages
-│   ├── otp.html        # OTP verification page
-│   ├── welcome.html    # Welcome page after successful OTP verification
-├── index.html          # Main login page
-├── script.js           # JavaScript logic for the application
-└── README.md           # This README file
 
+
+
+
+
+
+
+
+
+
+
+kundan kumar
+1:05 PM
+https://saveright.in/signup
+post
+{isdCode, phone}
+kundan kumar
+1:18 PM
+/auth/signup
+kundan kumar
+1:27 PM
+String id = data.get("userId");
+        Integer otp = Integer.parseInt(data.get("otp"));
+{userId, otp}
+/auth//verify-otp
+kundan kumar
+1:45 PM
+const data = await user.json();
+console.log(data);
+console.log('data', data)
+kundan kumar
+1:46 PM
+data.userID
+data.userID
+data.userID
+kundan kumar
+1:50 PM
+kundan1302@gmail.com
